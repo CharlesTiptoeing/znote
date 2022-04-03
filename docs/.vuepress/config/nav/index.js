@@ -1,8 +1,8 @@
 //导航栏
 module.exports = [
-    {text: '主页', link: '/index.html', icon: 'reco-home'},
+    {text: 'HOME', link: '/index.html', icon: 'reco-home'},
     {
-        text: '其它', icon: 'reco-document',
+        text: 'OTHERS', icon: 'reco-document',
         items: [
             {
                 text: 'Projects🎈',
@@ -45,6 +45,6 @@ module.exports = [
                 }]
             },]
     },
-    {text: '时间线', link: '/timeline/', icon: 'reco-date'},
-    {text: '关于我', link: '/about/', icon: 'reco-message'}
+    {text: 'TIMELINE', link: '/timeline/', icon: 'reco-date'},
+    {text: 'ABOUTME', link: '/about/', icon: 'reco-message'}
 ]

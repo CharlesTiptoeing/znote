@@ -12,7 +12,7 @@ heroImageStyle: {
   borderRadius: '10px',
 }
 isShowTitleInHome: true
-actionText: '开启进阶之路'
+actionText: 'My learning process'
 actionLink: /views/
 features:
 - title: 

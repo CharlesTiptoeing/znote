@@ -6,8 +6,8 @@ const plugins = require('./config/plugins/')
 module.exports = {
   // dest: 'gb-pages',//打包目录
   base: '/znote/',
-  title: "znote",
-  description: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
+  title: "Charles",
+  description: 'Make the most of everyday.',
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
     ['meta', { name: 'renderer', content: 'webkit'}],
@@ -53,11 +53,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: '分类' // 默认文案 “分类”
+        text: 'Categories' // 默认文案 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: '标签' // 默认文案 “标签”
+        text: 'Tags' // 默认文案 “标签”
       }
     },
     // 最后更新时间
