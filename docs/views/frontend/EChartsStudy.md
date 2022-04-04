@@ -1,5 +1,5 @@
 ---
-title: ECharts常用图表
+title: JavaScript
 date: 2019-08-03 17:37:25
 tags:
 - ECharts
