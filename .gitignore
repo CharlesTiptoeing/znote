@@ -1,5 +1,5 @@
 node_modules/
-gb-pages/
+blogcode/
 docs/.vuepress/dist/
 .vscode/
 .idea/
