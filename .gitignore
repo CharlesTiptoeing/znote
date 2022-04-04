@@ -1,5 +1,4 @@
 node_modules/
-blogcode/
-docs/.vuepress/dist/
-.vscode/
-.idea/
+docs/.vuepress/theme
+package-lock.json
+public/
