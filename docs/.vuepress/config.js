@@ -5,7 +5,7 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: '/znote/',
+  
   title: "Charles",
   description: 'Make the most of everyday.',
   head: [
