@@ -1295,34 +1295,34 @@
   dependencies:
     tslib "^2.0.1"
 
-"@vuepress-reco/core@^1.6.9":
-  version "1.6.9"
-  resolved "https://registry.npmjs.org/@vuepress-reco/core/-/core-1.6.9.tgz"
+"@vuepress-reco/core@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/core/-/core-1.6.13.tgz#2782241c9b2d754168a1708dedc202fde7992219"
   dependencies:
     "@vue/composition-api" "1.0.0-beta.21"
     vue "^2.6.12"
     vue-demi "^0.5.3"
     vue-property-decorator "^9.1.2"
 
-"@vuepress-reco/vuepress-plugin-back-to-top@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.0.tgz"
+"@vuepress-reco/vuepress-plugin-back-to-top@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.13.tgz#dfc31ed7354a9839fd7781532b0ea5722ad73fc0"
 
-"@vuepress-reco/vuepress-plugin-comments@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-1.6.0.tgz"
+"@vuepress-reco/vuepress-plugin-comments@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-1.6.13.tgz#71d3291a3cc79085981beb42ac22cfa5191fc5d4"
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.1.1"
     "@vssue/api-gitee-v5" "^1.4.4"
     "@vssue/api-github-v3" "^1.4.4"
     "@vssue/api-github-v4" "^1.2.0"
     "@vssue/api-gitlab-v4" "^1.1.1"
-    valine "^1.4.14"
+    valine "^1.4.18"
     vssue "^1.4.6"
 
-"@vuepress-reco/vuepress-plugin-pagation@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@vuepress-reco/vuepress-plugin-pagation/-/vuepress-plugin-pagation-1.6.0.tgz"
+"@vuepress-reco/vuepress-plugin-pagation@^1.6.13":
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-pagation/-/vuepress-plugin-pagation-1.6.13.tgz#d6f388d64a552d8ba95a7a9bfa7d307a63bb6718"
 
 "@vuepress-reco/vuepress-plugin-rss@1.0.2":
   version "1.0.2"
@@ -1906,6 +1906,10 @@ autoprefixer@^9.5.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
+autosize@^4.0.2:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/autosize/-/autosize-4.0.4.tgz#924f13853a466b633b9309330833936d8bccce03"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz"
@@ -2058,6 +2062,10 @@ bindings@^1.5.0:
 bluebird@^3.1.1, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+
+blueimp-md5@^2.8.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/blueimp-md5/-/blueimp-md5-2.19.0.tgz#b53feea5498dcb53dc6ec4b823adb84b729c4af0"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.12.0"
@@ -2592,6 +2600,10 @@ commander@^2.20.0, commander@^2.20.3:
 commander@~2.19.0:
   version "2.19.0"
   resolved "https://registry.npmjs.org/commander/-/commander-2.19.0.tgz"
+
+comment-regex@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/comment-regex/-/comment-regex-1.0.1.tgz#e070d2c4db33231955d0979d27c918fcb6f93565"
 
 common-tags@^1.8.0:
   version "1.8.2"
@@ -4084,6 +4096,12 @@ gray-matter@^4.0.1:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+hanabi@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/hanabi/-/hanabi-0.4.0.tgz#ebbb251358c1337db1eabda686c43ff777d30d82"
+  dependencies:
+    comment-regex "^1.0.0"
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/handle-thing/-/handle-thing-2.0.1.tgz"
@@ -5206,6 +5224,10 @@ markdown-it@^8.4.1:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
+
+marked@^4.0.8:
+  version "4.0.16"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.16.tgz#9ec18fc1a723032eb28666100344d9428cf7a264"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -7710,15 +7732,19 @@ uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
 
-valine@^1.4.14:
-  version "1.4.16"
-  resolved "https://registry.npmjs.org/valine/-/valine-1.4.16.tgz"
+valine@^1.4.18:
+  version "1.4.18"
+  resolved "https://registry.yarnpkg.com/valine/-/valine-1.4.18.tgz#d396ac3cb1f4ce80ddddbff9f9d58f0d36e76920"
   dependencies:
+    autosize "^4.0.2"
     balajs "^1.0.7"
     balalaika "^1.0.1"
+    blueimp-md5 "^2.8.0"
     element-closest "^3.0.2"
+    hanabi "^0.4.0"
     insane "^2.6.2"
     leancloud-storage "^3.0.4"
+    marked "^4.0.8"
     storejs "^1.0.25"
     xss "^1.0.6"
 
@@ -7933,15 +7959,15 @@ vuepress-plugin-smooth-scroll@^0.0.9:
   dependencies:
     smoothscroll-polyfill "^0.4.4"
 
-vuepress-theme-reco@1.6.11:
-  version "1.6.11"
-  resolved "https://registry.npmjs.org/vuepress-theme-reco/-/vuepress-theme-reco-1.6.11.tgz"
+vuepress-theme-reco@1.6.13:
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-reco/-/vuepress-theme-reco-1.6.13.tgz#8c62a000fae7dab0607fbae94800e64deae27b93"
   dependencies:
     "@vue/composition-api" "1.0.0-beta.21"
-    "@vuepress-reco/core" "^1.6.9"
-    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.0"
-    "@vuepress-reco/vuepress-plugin-comments" "^1.6.0"
-    "@vuepress-reco/vuepress-plugin-pagation" "^1.6.0"
+    "@vuepress-reco/core" "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-comments" "^1.6.13"
+    "@vuepress-reco/vuepress-plugin-pagation" "^1.6.13"
     "@vuepress/plugin-blog" "1.9.2"
     "@vuepress/plugin-medium-zoom" "1.5.0"
     docsearch.js "2.6.3"
