@@ -1289,19 +1289,11 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@1.0.0-beta.21":
-  version "1.0.0-beta.21"
-  resolved "https://registry.npmjs.org/@vue/composition-api/-/composition-api-1.0.0-beta.21.tgz"
+"@vuepress-reco/core@^1.6.14-beta.0":
+  version "1.6.14-beta.0"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/core/-/core-1.6.14-beta.0.tgz#d7bba44b20c76c9a978aee4f428e906854dda10e"
   dependencies:
-    tslib "^2.0.1"
-
-"@vuepress-reco/core@^1.6.13":
-  version "1.6.13"
-  resolved "https://registry.yarnpkg.com/@vuepress-reco/core/-/core-1.6.13.tgz#2782241c9b2d754168a1708dedc202fde7992219"
-  dependencies:
-    "@vue/composition-api" "1.0.0-beta.21"
     vue "^2.6.12"
-    vue-demi "^0.5.3"
     vue-property-decorator "^9.1.2"
 
 "@vuepress-reco/vuepress-plugin-back-to-top@^1.6.13":
@@ -7476,10 +7468,6 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-tslib@^2.0.1:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
-
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.0.tgz"
@@ -7786,10 +7774,6 @@ vue-click-outside@1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.1.0.tgz"
 
-vue-demi@^0.5.3:
-  version "0.5.4"
-  resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.5.4.tgz"
-
 vue-disqus@^3.0.5:
   version "3.0.5"
   resolved "https://registry.npmjs.org/vue-disqus/-/vue-disqus-3.0.5.tgz"
@@ -7959,12 +7943,11 @@ vuepress-plugin-smooth-scroll@^0.0.9:
   dependencies:
     smoothscroll-polyfill "^0.4.4"
 
-vuepress-theme-reco@1.6.13:
-  version "1.6.13"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-reco/-/vuepress-theme-reco-1.6.13.tgz#8c62a000fae7dab0607fbae94800e64deae27b93"
+vuepress-theme-reco@1.6.14:
+  version "1.6.14"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-reco/-/vuepress-theme-reco-1.6.14.tgz#d158c450454d61508a51ded7b94d9714f3e58df2"
   dependencies:
-    "@vue/composition-api" "1.0.0-beta.21"
-    "@vuepress-reco/core" "^1.6.13"
+    "@vuepress-reco/core" "^1.6.14-beta.0"
     "@vuepress-reco/vuepress-plugin-back-to-top" "^1.6.13"
     "@vuepress-reco/vuepress-plugin-comments" "^1.6.13"
     "@vuepress-reco/vuepress-plugin-pagation" "^1.6.13"
@@ -7973,7 +7956,6 @@ vuepress-theme-reco@1.6.13:
     docsearch.js "2.6.3"
     md5 "2.2.1"
     vue-click-outside "1.1.0"
-    vue-demi "^0.5.3"
     vuepress-plugin-smooth-scroll "^0.0.9"
 
 vuepress@^1.9.7:
