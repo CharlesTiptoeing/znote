@@ -1429,11 +1429,11 @@
   dependencies:
     medium-zoom "^1.0.4"
 
-"@vuepress/plugin-medium-zoom@^1.9.7":
-  version "1.9.7"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.9.7.tgz"
+"@vuepress/plugin-medium-zoom@^1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.9.8.tgz#d90b141cf94e441d50b78d37d2ad55c9135d7d2b"
   dependencies:
-    "@vuepress/types" "1.9.7"
+    "@vuepress/types" "1.9.8"
     medium-zoom "^1.0.4"
 
 "@vuepress/plugin-nprogress@1.9.7":
@@ -1511,6 +1511,14 @@
 "@vuepress/types@1.9.7":
   version "1.9.7"
   resolved "https://registry.npmjs.org/@vuepress/types/-/types-1.9.7.tgz"
+  dependencies:
+    "@types/markdown-it" "^10.0.0"
+    "@types/webpack-dev-server" "^3"
+    webpack-chain "^6.0.0"
+
+"@vuepress/types@1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.8.tgz#bf22bae02e265bc1f7b016495a236fa3ba97fa5c"
   dependencies:
     "@types/markdown-it" "^10.0.0"
     "@types/webpack-dev-server" "^3"
