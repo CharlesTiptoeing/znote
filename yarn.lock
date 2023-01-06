@@ -1410,11 +1410,11 @@
     vuepress-plugin-mailchimp "^1.4.1"
     vuepress-plugin-sitemap "^2.3.1"
 
-"@vuepress/plugin-google-analytics@1.9.7":
-  version "1.9.7"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.7.tgz"
+"@vuepress/plugin-google-analytics@1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.8.tgz#e5dbe0e16978f93c7bb92db978b2008dd3db26fd"
   dependencies:
-    "@vuepress/types" "1.9.7"
+    "@vuepress/types" "1.9.8"
 
 "@vuepress/plugin-last-updated@1.9.7":
   version "1.9.7"
