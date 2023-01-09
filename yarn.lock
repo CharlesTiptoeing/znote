@@ -1443,12 +1443,12 @@
     "@vuepress/types" "1.9.7"
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pwa@^1.9.7":
-  version "1.9.7"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-pwa/-/plugin-pwa-1.9.7.tgz"
+"@vuepress/plugin-pwa@^1.9.8":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.9.8.tgz#18823248553479e006799c24d88a2aab387c6421"
   dependencies:
-    "@vuepress/shared-utils" "1.9.7"
-    "@vuepress/types" "1.9.7"
+    "@vuepress/shared-utils" "1.9.8"
+    "@vuepress/types" "1.9.8"
     register-service-worker "^1.7.0"
     workbox-build "^4.3.1"
 
@@ -1479,18 +1479,18 @@
     toml "^3.0.0"
     upath "^1.1.0"
 
-"@vuepress/shared-utils@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@vuepress/shared-utils/-/shared-utils-1.2.0.tgz"
+"@vuepress/shared-utils@1.9.8", "@vuepress/shared-utils@^1.2.0":
+  version "1.9.8"
+  resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.9.8.tgz#1ecaf148409001fee9c00c6951dc719c9a279523"
   dependencies:
     chalk "^2.3.2"
-    diacritics "^1.3.0"
     escape-html "^1.0.3"
     fs-extra "^7.0.1"
     globby "^9.2.0"
     gray-matter "^4.0.1"
     hash-sum "^1.0.2"
     semver "^6.0.0"
+    toml "^3.0.0"
     upath "^1.1.0"
 
 "@vuepress/theme-default@1.9.7":
@@ -3147,10 +3147,6 @@ destroy@~1.0.4:
 detect-node@^2.0.4:
   version "2.1.0"
   resolved "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz"
-
-diacritics@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/diacritics/-/diacritics-1.3.0.tgz"
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
