@@ -1429,11 +1429,11 @@
   dependencies:
     medium-zoom "^1.0.4"
 
-"@vuepress/plugin-medium-zoom@^1.9.8":
-  version "1.9.8"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.9.8.tgz#d90b141cf94e441d50b78d37d2ad55c9135d7d2b"
+"@vuepress/plugin-medium-zoom@^1.9.9":
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.9.9.tgz#a6321fb944c5cb3ab840c01b943e23046b37b2dd"
   dependencies:
-    "@vuepress/types" "1.9.8"
+    "@vuepress/types" "1.9.9"
     medium-zoom "^1.0.4"
 
 "@vuepress/plugin-nprogress@1.9.9":
