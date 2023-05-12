@@ -4810,9 +4810,9 @@ javascript-stringify@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/javascript-stringify/-/javascript-stringify-2.0.1.tgz"
 
-jquery@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.4.tgz#ba065c188142100be4833699852bf7c24dc0252f"
+jquery@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.0.tgz#fe2c01a05da500709006d8790fe21c8a39d75612"
 
 js-tokens@^4.0.0:
   version "4.0.0"
